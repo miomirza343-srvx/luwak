@@ -22,7 +22,7 @@ task.spawn(function()
 end)
 
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "VanylaPanel_V5"
+ScreenGui.Name = "PANEL VANYLA"
 ScreenGui.ResetOnSpawn = false
 ScreenGui.Parent = LocalPlayer:WaitForChild("PlayerGui")
 
@@ -48,7 +48,7 @@ UIStroke.Parent = MainFrame
 local Title = Instance.new("TextLabel")
 Title.Size = UDim2.new(1, 0, 0, 35)
 Title.Position = UDim2.new(0, 0, 0, 5)
-Title.Text = "VANYLA PANEL V5"
+Title.Text = "PANEL HUB"
 Title.TextColor3 = Color3.fromRGB(157, 34, 53)
 Title.BackgroundTransparency = 1
 Title.Font = Enum.Font.GothamBold
